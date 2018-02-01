@@ -32,6 +32,22 @@ def findKeywordCaseSensetive(inputString, keyword):
 	else:
 		return False
 
+# Function to check if the keywords (case sensetive) exists
+def findKeywordsCaseInsensetive(inputString, keywords):
+	for keyword in keywords:
+		if(!findKeywordCaseInsensetive(inputString, keyword))
+			return False;
+	return True
+
+
+# Function to check if the keywords (case sensetive) exists
+def findKeywordsCaseSensetive(inputString, keywords):
+	for keyword in keywords:
+		if(!findKeywordCaseSensetive(inputString, keyword))
+			return False;
+	return True
+
+
 # main function of the python script. Duh!
 def main():
 	# Put the following in try/catch exception handling to manage exceptions properly
