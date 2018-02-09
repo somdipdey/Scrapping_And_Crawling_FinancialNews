@@ -23,7 +23,7 @@ def news_word_cloud(text,max_font_size=60,background_color="white"):
 
 	# Generate a word cloud image &
 	# set lower max_font_size
-	wordcloud = WordCloud(background_color=background_color,max_font_size=max_font_size).generate(text)
+	wordcloud = WordCloud(background_color=background_color,max_font_size=max_font_size).generate(text.lower())
 	plt.figure()
 	plt.imshow(wordcloud, interpolation="bilinear")
 	plt.axis("off")
