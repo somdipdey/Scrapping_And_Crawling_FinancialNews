@@ -24,3 +24,13 @@ Download the package from https://github.com/somdipdey/Scrapping_And_Crawling_Fi
 then:
 
 		>>python setup.py install
+
+## Usage
+
+#### Using Word Cloud to visualise the news article
+
+###### Example:
+
+The news article on "Fast-Food Joke About Saudi Prince Backfires for Lebanon Comedian" available at https://www.bloomberg.com/news/articles/2018-01-26/fast-food-joke-about-saudi-prince-backfires-for-lebanon-comedian  can be visualised as follows:
+
+![Word Cloud on Bloomberg Article](https://user-images.githubusercontent.com/8515608/36053428-9aee79f8-0de9-11e8-9b80-770f82d16c3c.png)
