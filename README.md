@@ -35,6 +35,15 @@ The news article on "Fast-Food Joke About Saudi Prince Backfires for Lebanon Com
 
 ![Word Cloud on Bloomberg Article](https://user-images.githubusercontent.com/8515608/36053428-9aee79f8-0de9-11e8-9b80-770f82d16c3c.png)
 
+#### Using Word Cloud to visualise the news article with specific keywords appearing in specific colors (Module: news_word_cloud.news_word_cloud_by_color)
+
+###### Example:
+
+The news article on "Fast-Food Joke About Saudi Prince Backfires for Lebanon Comedian" available at https://www.bloomberg.com/news/articles/2018-01-26/fast-food-joke-about-saudi-prince-backfires-for-lebanon-comedian  can be visualised as follows:
+
+![Word Cloud on Bloomberg Article with only two tone colors](https://user-images.githubusercontent.com/8515608/36055502-ca7edfea-0df4-11e8-851c-d75cd1db8cf3.png)
+
+
 #### Using Keyword Crawler to extract/check if the news article contains the keyword(s) (Module: financial_news_keyword_crawler)
 
 ###### Example:
