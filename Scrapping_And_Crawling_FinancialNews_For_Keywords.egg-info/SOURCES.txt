@@ -9,5 +9,5 @@ Source/__init__.py
 Source/financial_data_from_quandl.py
 Source/financial_news_keyword_crawler.py
 Source/news_word_cloud.py
-Source/Extension/query_integral_image.c
+Source/Helper/query_integral_image.c
 Source/Helper/wordcloud_cli.py

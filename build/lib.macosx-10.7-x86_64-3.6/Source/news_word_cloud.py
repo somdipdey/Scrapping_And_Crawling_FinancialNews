@@ -3,7 +3,7 @@ Generating a square wordcloud based on a news story.
 """
 
 from os import path
-from Source.Helper import WordCloud
+from Helper.wordcloud import WordCloud
 
 d = path.dirname(__file__)
 

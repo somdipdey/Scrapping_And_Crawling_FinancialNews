@@ -8,7 +8,7 @@ from Helper.wordcloud import WordCloud
 d = path.dirname(__file__)
 
 # Read the whole text.
-text = 'Damn boy!  yoyo'
+text = 'Damn damn damn damn yoyo boy!  yoyo'
 
 # Generate a word cloud image
 wordcloud = WordCloud().generate(text)
