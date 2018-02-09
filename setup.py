@@ -17,9 +17,9 @@ setup(
     description='Financial News crawler and scrapper for useful data',
     license='MIT',
     install_requires=['matplotlib', 'numpy>=1.6.1', 'pillow', 'pandas', 'quandl', 'lxml', 'requests'],
-    ext_modules=[Extension("wordcloud.query_integral_image",
-                           ["Source/Extension/query_integral_image.c"])],
+    ext_modules=[Extension("Helper.query_integral_image",
+                           ["Source/Helper/query_integral_image.c"])],
     scripts=['Source/Helper/wordcloud_cli.py'],
-    packages=['Scrapping_And_Crawling_FinancialNews_For_Keywords'],
+    packages=['Source'],
     package_data={'Source/Helper': ['DroidSansMono.ttf']}
 )
