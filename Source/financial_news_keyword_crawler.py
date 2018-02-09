@@ -16,6 +16,11 @@ def extractHtml(url):
 	articleStub = tree.xpath('//p/text()')
 	return articleStub
 
+# Function to extract and scrap a webpage as whole body paragraph
+def extractHtmlAsParagraph(url):
+	paragraph_array = extractHtml(url)
+	return "\n".join(paragraph_array)
+
 # Function to check if the keyword (case insensetive) exists
 def findKeywordCaseInsensetive(inputString, keyword):
 	# Import regex
@@ -35,7 +40,7 @@ def findKeywordCaseSensetive(inputString, keyword):
 # Function to check if the keywords (case sensetive) exists
 def findKeywordsCaseInsensetive(inputString, keywords):
 	for keyword in keywords:
-		if(!findKeywordCaseInsensetive(inputString, keyword))
+		if not findKeywordCaseInsensetive(inputString, keyword):
 			return False;
 	return True
 
@@ -43,7 +48,7 @@ def findKeywordsCaseInsensetive(inputString, keywords):
 # Function to check if the keywords (case sensetive) exists
 def findKeywordsCaseSensetive(inputString, keywords):
 	for keyword in keywords:
-		if(!findKeywordCaseSensetive(inputString, keyword))
+		if not findKeywordCaseSensetive(inputString, keyword):
 			return False;
 	return True
 
