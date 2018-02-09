@@ -11,7 +11,7 @@ __version__ = re.search(
 setup(
     author="Somdip Dey",
     author_email="somdip007-at-gmail.com",
-    name='financialnews_crawl_scrap',
+    name='Scrapping_And_Crawling_FinancialNews_For_Keywords',
     version=__version__,
     url='https://github.com/somdipdey/Scrapping_And_Crawling_FinancialNews_For_Keywords',
     description='Financial News crawler and scrapper for useful data',
@@ -20,6 +20,6 @@ setup(
     ext_modules=[Extension("wordcloud.query_integral_image",
                            ["Source/Extension/query_integral_image.c"])],
     scripts=['Source/Helper/wordcloud_cli.py'],
-    packages=['financialnews_crawl_scrap'],
-    package_data={'financialnews_crawl_scrap': ['DroidSansMono.ttf']}
+    packages=['Scrapping_And_Crawling_FinancialNews_For_Keywords'],
+    package_data={'Source/Helper': ['DroidSansMono.ttf']}
 )
