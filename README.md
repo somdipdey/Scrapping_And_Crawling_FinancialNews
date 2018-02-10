@@ -18,6 +18,10 @@ Install the following packages before you can start using them::
 		>> pip install numpy>=1.6.1
 		>> pip install pillow
 
+Else:
+
+		>> pip install -r requirements.txt
+
 #### To install this package manually:
 Download the package from https://github.com/somdipdey/Scrapping_And_Crawling_FinancialNews_For_Keywords.git
 
