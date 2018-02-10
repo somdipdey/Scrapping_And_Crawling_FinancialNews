@@ -25,7 +25,7 @@ Else:
 #### To install this package manually:
 Download the package from https://github.com/somdipdey/Scrapping_And_Crawling_FinancialNews_For_Keywords.git
 
-then:
+Then:
 
 		>> python setup.py install
 
